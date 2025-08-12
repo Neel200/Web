@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindler Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        header.banner{
+            background: url('OIP.jpg') no-repeat center center/cover;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .gif-group{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .gif-group img{
+            height: 40px;
+        }
+        .hero{
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #e0f7fa, #e1bee7);
+        }
+        .hero h1{
+            font-size: 36px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .hero p{
+            color: #555;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn-primary{
+            background-color: #00aaff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-bottom: 15px;
+        }
+        .illustrations{
+            text-align: center;
+        }
+        .illustrations img{
+            width: 50%; 
+            height: auto;
+            min-height: 120px;
+        }
+        footer.stats{
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            background-color: #649eea; 
+            padding: 80px 20px;  
+            flex-wrap: wrap;
+        }
+        .stat-box{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #b5d5d9;
+            padding: 20px 25px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            min-width: 300px;
+        }
+        .stat-box img{
+            height: 100px;
+            flex-shrink: 0;
+        }
+        .stat-text h2{
+            font-size: large;
+            font-weight: bolder;
+            color: #0077b6;
+            margin-bottom: 3px;
+        }
+        .stat-text p{
+            font-size: medium;
+            font-weight: bolder;
+            color: #444;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner">
+        <div class="gif-group">
+            <img src="party.gif" alt="Party">
+            <img src="cake.gif" alt="Cake">
+            <img src="ballons.gif" alt="Balloons">
+        </div>
+        <div class="banner-text">
+            Shape Your Future | Explore Your Personality | Unlock Your Potential
+        </div>
+        <div class="gif-group">
+            <img src="ballons.gif" alt="Balloons">
+            <img src="cake.gif" alt="Cake">
+            <img src="party.gif" alt="Party">
+        </div>
+    </header>
+    <section class="hero">
+        <h1>Unleash Your True Potential</h1>
+        <p>Discover the right education path for you with our personality-driven career guidance.</p>
+        <button class="btn-primary">Get Started</button>
+        <div class="illustrations">
+            <img src="Mindler-Nexus_blog-2048x1024.png" alt="">
+        </div>
+    </section>
+    <footer class="stats">
+        <div class="stat-box">
+            <img src="Group 1310.svg">
+            <div class="stat-text">
+                <h2>3.5M+</h2>
+                <p>Students Guided</p>
+            </div>
+        </div>
+        <div class="stat-box">
+            <img src="Group 1311.svg">
+            <div class="stat-text">
+                <h2>70,000</h2>
+                <p>Educators Certified</p>
+            </div>
+        </div>
+        <div class="stat-box">
+            <img src="Group 1312.svg">
+            <div class="stat-text">
+                <h2>550+</h2>
+                <p>Partner Schools</p>
+            </div>
+        </div>
+        <div class="stat-box">
+            <img src="Group 1313.svg">
+            <div class="stat-text">
+                <h2>50+</h2>
+                <p>University Partners</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
